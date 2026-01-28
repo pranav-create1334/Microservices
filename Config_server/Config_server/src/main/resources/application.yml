@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: Config_server
+
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server:
+        native:
+#          search-locations: file:///D:/config-repo
